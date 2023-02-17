@@ -1,8 +1,6 @@
-import { FaTrashAlt } from 'react-icons/fa';
 import ItemList from './ItemList';
 
 const Content = ({ items, handleCheck, handleDelete }) => {
-
     return (
         <main>
             {items.length ? (
@@ -10,9 +8,9 @@ const Content = ({ items, handleCheck, handleDelete }) => {
                     items={items}
                     handleCheck={handleCheck}
                     handleDelete={handleDelete}
-                ></ItemList>
+                />
             ) : (
-                <p style={{ marginTop: '2rem' }}> Your list is empty!</p>
+                <p style={{ marginTop: '2rem' }}>Your list is empty.</p>
             )}
         </main>
     )
