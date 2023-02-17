@@ -1,0 +1,19 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "checked": false,
+            "item": "Bread"
+        },
+        {
+            "id": 2,
+            "checked": false,
+            "item": "3 gloves of garlic"
+        },
+        {
+            "id": 3,
+            "checked": false,
+            "item": "Pizza with ham and mushrooms"
+        }
+    ]
+}
